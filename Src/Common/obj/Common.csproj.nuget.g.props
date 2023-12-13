@@ -13,6 +13,9 @@
     <SourceRoot Include="C:\Users\EDY\.nuget\packages\" />
     <SourceRoot Include="D:\Visual Studio 2022\Shared\NuGetPackages\" />
   </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore\7.0.14\buildTransitive\net6.0\Microsoft.EntityFrameworkCore.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore\7.0.14\buildTransitive\net6.0\Microsoft.EntityFrameworkCore.props')" />
+  </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgHandyControl Condition=" '$(PkgHandyControl)' == '' ">C:\Users\EDY\.nuget\packages\handycontrol\3.4.0</PkgHandyControl>
   </PropertyGroup>
