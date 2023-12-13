@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "i2GLvc9/7WwOmhtCpC+MRXGdqc71YnmlqyPiHwALmma75d6+qU1NlbHWE3qO7e6AQ59vsH5dwkCNBiP4avM3Sw==",
+  "success": true,
+  "projectFilePath": "E:\\KohlerSystem\\Src\\Application\\Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\EDY\\.nuget\\packages\\handycontrol\\3.4.0\\handycontrol.3.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
